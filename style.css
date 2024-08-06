@@ -1,0 +1,178 @@
+body {
+    background-image: url(img/pic.jpeg);
+}
+
+#birthday-banner {
+    background-color: #FFD700;
+    color: #FF1493;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+p {
+    color: whitesmoke;
+}
+#birthday-wish {
+    background-image: url(img/pic.jpeg);
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.wish-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.birthday-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #FF69B4;
+}
+
+.wish-text {
+    text-align: center;
+}
+
+.wish-text h3 {
+    color: #FF1493;
+    margin-bottom: 10px;
+}
+
+.signature {
+    font-style: italic;
+    text-align: right;
+    margin-top: 15px;
+}
+
+
+@media screen and (min-width: 576px) {
+    #birthday-banner {
+        font-size: 1.3em;
+    }
+
+    .birthday-photo {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    #birthday-banner {
+        font-size: 1.4em;
+        padding: 12px;
+    }
+
+    #birthday-wish {
+        padding: 25px;
+    }
+
+    .wish-content {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .wish-text {
+        text-align: left;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    #birthday-banner {
+        font-size: 1.5em;
+        padding: 15px;
+    }
+
+    #birthday-wish {
+        padding: 30px;
+        margin: 20px 0;
+    }
+
+    .birthday-photo {
+        width: 200px;
+        height: 200px;
+        border-width: 5px;
+    }
+
+    .wish-content {
+        gap: 30px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    #birthday-banner {
+        font-size: 1.6em;
+    }
+
+    #birthday-wish {
+        max-width: 1140px;
+        margin: 20px auto;
+    }
+
+    .birthday-photo {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+#birthday-banner {
+    background-color: #FFD700;
+    color: #FF1493;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5em;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* #birthday-wish {
+    background-color: #FFF0F5;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.wish-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.birthday-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #FF69B4;
+}
+
+.wish-text {
+    flex: 1;
+}
+
+.wish-text h3 {
+    color: #FF1493;
+    margin-bottom: 15px;
+}
+
+.signature {
+    font-style: italic;
+    text-align: right;
+    margin-top: 20px;
+} */
